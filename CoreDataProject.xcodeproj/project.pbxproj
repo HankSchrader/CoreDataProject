@@ -17,6 +17,8 @@
 		538172A92636609A00464CF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172902636609800464CF9 /* Persistence.swift */; };
 		538172AA2636609A00464CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538172912636609900464CF9 /* Assets.xcassets */; };
 		538172AB2636609A00464CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538172912636609900464CF9 /* Assets.xcassets */; };
+		538172BC26383B8100464CF9 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */; };
+		538172BD26383B8100464CF9 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5381729E2636609A00464CF9 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538172A02636609A00464CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538172A12636609A00464CF9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		5381728B2636609800464CF9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */,
+				538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */,
 				5381728E2636609800464CF9 /* CoreDataProjectApp.swift */,
 				5381728F2636609800464CF9 /* ContentView.swift */,
 				538172902636609800464CF9 /* Persistence.swift */,
@@ -196,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				538172A42636609A00464CF9 /* CoreDataProjectApp.swift in Sources */,
+				538172BD26383B8100464CF9 /* Singer+CoreDataProperties.swift in Sources */,
 				538172A82636609A00464CF9 /* Persistence.swift in Sources */,
+				538172BC26383B8100464CF9 /* Singer+CoreDataClass.swift in Sources */,
 				538172A22636609A00464CF9 /* CoreDataProject.xcdatamodeld in Sources */,
 				538172A62636609A00464CF9 /* ContentView.swift in Sources */,
 			);

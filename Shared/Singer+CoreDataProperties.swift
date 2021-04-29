@@ -19,11 +19,11 @@ extension Singer {
     @NSManaged public var firstName: String?
     @NSManaged public var lastName: String?
 
-    var wrappedFirstName(name: String) {
+    var wrappedFirstName: String {
         firstName ?? "Unknown First Name"
     }
     
-    var wrappedLastName(name: String) {
+    var wrappedLastName: String {
         lastName ?? "Unknown Last Name"
     }
 }

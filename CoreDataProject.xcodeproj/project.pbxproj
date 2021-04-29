@@ -13,19 +13,20 @@
 		538172A52636609A00464CF9 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381728E2636609800464CF9 /* CoreDataProjectApp.swift */; };
 		538172A62636609A00464CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381728F2636609800464CF9 /* ContentView.swift */; };
 		538172A72636609A00464CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381728F2636609800464CF9 /* ContentView.swift */; };
-		538172A82636609A00464CF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172902636609800464CF9 /* Persistence.swift */; };
-		538172A92636609A00464CF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172902636609800464CF9 /* Persistence.swift */; };
 		538172AA2636609A00464CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538172912636609900464CF9 /* Assets.xcassets */; };
 		538172AB2636609A00464CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538172912636609900464CF9 /* Assets.xcassets */; };
 		538172BC26383B8100464CF9 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */; };
 		538172BD26383B8100464CF9 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */; };
+		538329DA263A470700BACBA4 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538329D9263A470700BACBA4 /* FilteredList.swift */; };
+		538329DB263A470700BACBA4 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538329D9263A470700BACBA4 /* FilteredList.swift */; };
+		538329DD263A4B6A00BACBA4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538329DC263A4B6A00BACBA4 /* Persistence.swift */; };
+		538329DE263A4B6A00BACBA4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538329DC263A4B6A00BACBA4 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5381728D2636609800464CF9 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		5381728E2636609800464CF9 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		5381728F2636609800464CF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		538172902636609800464CF9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		538172912636609900464CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		538172962636609900464CF9 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538172992636609A00464CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +35,8 @@
 		538172A12636609A00464CF9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		538329D9263A470700BACBA4 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		538329DC263A4B6A00BACBA4 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = ../../../../.Trash/Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +72,12 @@
 			children = (
 				538172BA26383B8100464CF9 /* Singer+CoreDataClass.swift */,
 				538172BB26383B8100464CF9 /* Singer+CoreDataProperties.swift */,
+				538329DC263A4B6A00BACBA4 /* Persistence.swift */,
 				5381728E2636609800464CF9 /* CoreDataProjectApp.swift */,
 				5381728F2636609800464CF9 /* ContentView.swift */,
-				538172902636609800464CF9 /* Persistence.swift */,
 				538172912636609900464CF9 /* Assets.xcassets */,
 				5381728C2636609800464CF9 /* CoreDataProject.xcdatamodeld */,
+				538329D9263A470700BACBA4 /* FilteredList.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -203,10 +207,11 @@
 			files = (
 				538172A42636609A00464CF9 /* CoreDataProjectApp.swift in Sources */,
 				538172BD26383B8100464CF9 /* Singer+CoreDataProperties.swift in Sources */,
-				538172A82636609A00464CF9 /* Persistence.swift in Sources */,
 				538172BC26383B8100464CF9 /* Singer+CoreDataClass.swift in Sources */,
+				538329DD263A4B6A00BACBA4 /* Persistence.swift in Sources */,
 				538172A22636609A00464CF9 /* CoreDataProject.xcdatamodeld in Sources */,
 				538172A62636609A00464CF9 /* ContentView.swift in Sources */,
+				538329DA263A470700BACBA4 /* FilteredList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				538172A52636609A00464CF9 /* CoreDataProjectApp.swift in Sources */,
-				538172A92636609A00464CF9 /* Persistence.swift in Sources */,
+				538329DB263A470700BACBA4 /* FilteredList.swift in Sources */,
 				538172A32636609A00464CF9 /* CoreDataProject.xcdatamodeld in Sources */,
 				538172A72636609A00464CF9 /* ContentView.swift in Sources */,
+				538329DE263A4B6A00BACBA4 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
